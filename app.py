@@ -15,4 +15,4 @@ app.add_url_rule('/create/recall', methods=['POST'], view_func=create_recall)
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True, port=3134)
+    app.run(host='0.0.0.0', port='5001')
